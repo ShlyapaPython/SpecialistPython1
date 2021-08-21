@@ -7,3 +7,12 @@ values = ['Петр', 'Первый', 42, 1300]
 # TODO: your code here
 # Нужно получить словарь:
 # {'name': 'Петр', 'surname': 'Первый', 'age': 42, 'rate': 1300}
+keys = ['name', 'surname', 'age', 'rate']
+values = ['Петр', 'Первый', 42, 1300]
+dct = {
+    keys[0]:values[0],
+    keys[1]:values[1],
+    keys[2]:values[2],
+    keys[3]:values[3]
+}
+print(dct)
